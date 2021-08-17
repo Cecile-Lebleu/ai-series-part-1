@@ -49,8 +49,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  Animator: {fileID: 6512613397820993718}
   UpdateRate: 0.1
+  Animator: {fileID: 6512613397820993718}
 --- !u!195 &6512613397708859714
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -147,6 +147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Movement: {fileID: 6512613397708859715}
   Agent: {fileID: 6512613397708859714}
+  EnemyScriptableObject: {fileID: 11400000, guid: 0cbb84ea4e21f4026808cc5daadae79e,
+    type: 2}
   Health: 100
 --- !u!1001 &6512613397811496406
 PrefabInstance:
